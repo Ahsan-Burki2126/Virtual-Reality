@@ -51,14 +51,15 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-          <div className="flex space-x-6">
-  <a href="#" className="py-2 px-4 md:py-3 md:px-6 lg:py-4 lg:px-8 border rounded-md">
+         <div className="flex space-x-4 sm:space-x-6">
+  <a href="#" className="py-1 px-2 text-sm sm:py-2 sm:px-4 sm:text-base md:py-3 md:px-6 md:text-lg lg:py-4 lg:px-8 lg:text-xl border rounded-md">
     Sign In
   </a>
-  <a href="#" className="py-2 px-4 md:py-3 md:px-6 lg:py-4 lg:px-8 rounded-md bg-gradient-to-r from-orange-500 to-orange-800">
+  <a href="#" className="py-1 px-2 text-sm sm:py-2 sm:px-4 sm:text-base md:py-3 md:px-6 md:text-lg lg:py-4 lg:px-8 lg:text-xl rounded-md bg-gradient-to-r from-orange-500 to-orange-800">
     Create an account
   </a>
 </div>
+
 
           </div>
         )}
