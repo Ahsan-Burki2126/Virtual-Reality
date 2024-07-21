@@ -51,17 +51,15 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex space-x-6">
-              <a href="#" className="py-2 px-3 border rounded-md">
-                Sign In
-              </a>
-              <a
-                href="#"
-                className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800"
-              >
-                Create an account
-              </a>
-            </div>
+          <div className="flex space-x-6">
+  <a href="#" className="py-2 px-4 md:py-3 md:px-6 lg:py-4 lg:px-8 border rounded-md">
+    Sign In
+  </a>
+  <a href="#" className="py-2 px-4 md:py-3 md:px-6 lg:py-4 lg:px-8 rounded-md bg-gradient-to-r from-orange-500 to-orange-800">
+    Create an account
+  </a>
+</div>
+
           </div>
         )}
       </div>
